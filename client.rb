@@ -93,7 +93,7 @@ end
 run_upload
 
 def upload_personal_knowledge_base_items
-  mngr = GoogleDocsManager.new('brian.pfeil@gmail.com', 'method00')
+  mngr = GoogleDocsManager.new(EMAIL, PASSWORD)
   
   # temporary snippet to load personal knowledge base items as google docs
   open("/Users/brianpfeil/Temp/items.txt").read.split("||::||").each do |item|
