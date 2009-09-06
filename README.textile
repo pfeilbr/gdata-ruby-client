@@ -1,0 +1,3 @@
+h1. gdata-ruby-client
+
+google data api ruby client
